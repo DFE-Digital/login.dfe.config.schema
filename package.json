@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DFE-Digital/login.dfe.config.schema/issues"
   },
-  "homepage": "https://github.com/DFE-Digital/login.dfe.config.schema#readme"
+  "homepage": "https://github.com/DFE-Digital/login.dfe.config.schema#readme",
+  "dependencies": {
+    "simpl-schema": "^1.1.0"
+  }
 }
