@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# Dev env
+.idea/workspace.xml
+.idea/watcherTasks.xml

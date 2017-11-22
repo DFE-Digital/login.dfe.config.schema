@@ -1,0 +1,19 @@
+{
+  "name": "login.dfe.config.schema",
+  "version": "1.0.0",
+  "description": "Schemas and validation for DfE login config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DFE-Digital/login.dfe.config.schema.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DFE-Digital/login.dfe.config.schema/issues"
+  },
+  "homepage": "https://github.com/DFE-Digital/login.dfe.config.schema#readme"
+}
