@@ -6,6 +6,7 @@ After adding an npm reference to the package, you require the schema you need an
 
 ```javascript
 const { directoriesSchema } = require('login.dfe.config.schema');
+' config is the javascript object that represents the config to be validated.
 const validationResult = directoriesSchema.validate(config);
 if (!validationResult.isValid) {
   validationResult.forEach((item) => {
@@ -25,3 +26,12 @@ Available schema are:
 * oidcSchema
 * organisationsSchema
 * portalSchema
+
+A helper method is also exported to provide a common pattern of validating, logginer and quitting on validation errors.
+
+```javascript
+const { validateConfigAndQuitOnError, directoriesSchema } = require('login.dfe.config.schema');
+validateConfigAndQuitOnError(directoriesSchema, config, logger);
+```
+
+In the above, logger must have a function of `error(message)` on it, which will be used to log validation errors.
