@@ -60,3 +60,4 @@ typings/
 # Dev env
 .idea/workspace.xml
 .idea/watcherTasks.xml
+/test/configs

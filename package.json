@@ -2,7 +2,7 @@
   "name": "login.dfe.config.schema",
   "version": "1.0.0",
   "description": "Schemas and validation for DfE login config",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/DFE-Digital/login.dfe.config.schema/issues"
   },
-  "homepage": "https://github.com/DFE-Digital/login.dfe.config.schema#readme"
+  "homepage": "https://github.com/DFE-Digital/login.dfe.config.schema#readme",
+  "dependencies": {
+    "simpl-schema": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
 }
