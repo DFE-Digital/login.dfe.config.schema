@@ -6,7 +6,7 @@ After adding an npm reference to the package, you require the schema you need an
 
 ```javascript
 const { directoriesSchema } = require('login.dfe.config.schema');
-' config is the javascript object that represents the config to be validated.
+// config is the javascript object that represents the config to be validated.
 const validationResult = directoriesSchema.validate(config);
 if (!validationResult.isValid) {
   validationResult.forEach((item) => {
