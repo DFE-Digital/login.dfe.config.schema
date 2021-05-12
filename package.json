@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/DFE-Digital/login.dfe.config.schema#readme",
   "dependencies": {
-    "simpl-schema": "^1.1.0"
+    "simpl-schema": "^1.10.2"
   },
   "devDependencies": {
     "eslint": "^4.11.0",
